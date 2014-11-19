@@ -4,7 +4,7 @@
 .chromeframe {position: absolute; top: 0;}
 
 /* style */
-body{max-width:1200px; padding:2%; width:96%; margin:5% auto 20% auto;}
+body{}
 #wrapper{overflow:hidden;}
 .row{clear:both; overflow:hidden; margin:2% 0;}
 .row div:last-child{margin-right:0;}
