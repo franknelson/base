@@ -1,0 +1,39 @@
+/* Apply a natural box layout model to all elements: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.chromeframe {position: absolute; top: 0;}
+
+/* style */
+body{max-width:1200px; padding:2%; width:96%; margin:5% auto 20% auto;}
+#wrapper{overflow:hidden;}
+.row{clear:both; overflow:hidden; margin:2% 0;}
+.row div:last-child{margin-right:0;}
+
+.col {margin-right: 2%; float:left; min-height:150px; background-color:rgba(50,50,50,0.5);padding:1.5%;}
+
+/*column definitions */
+.one{width:9.33333333333%;} /* 1/9 columns, 2%(16%) margin, 3%(27%) padding -- */
+.two{width:20.66666666667%;} /* 2/9 columns, 2%(16%) margin, 3%(27%) padding -- */
+.three{width:32%;} /* 3/9 columns, 2%(16%) margin, 3%(27%) padding -- */
+.four{width:43.33333333333%;} /* 4/9 columns, 2%(16%) margin, 3%(27%) padding -- */
+.five{width:54.6666666666667%;} /* 5/9 columns, 2%(16%) margin, 3%(27%) padding -- */
+.six{width:66%;} /* 6/9 columns, 2%(16%) margin, 3%(27%) padding -- */
+.seven{width:77.333333333%;} /* 7/9 columns, 2%(16%) margin, 3%(27%) padding -- */
+.eight{width:88.666666666667%;} /* 8/9 columns, 2%(16%) margin, 3%(27%) padding -- */
+.nine{width:100%;} /* 8/9 columns, 2%(16%) margin, 3%(27%) padding -- */
+
+
+
+
+/* Media queries */
+
+@media screen and (max-width: 780px) {
+body{background: rgba(240, 240, 240, 1.0);}
+	
+}
+
+@media screen and (max-width: 420px) {
+
+body{background: rgba(210, 210, 210, 1.0);}
+
+}
